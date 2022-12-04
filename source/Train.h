@@ -8,9 +8,7 @@ class Train
 public:
 	Train(const size_t& itemsCount, Mesh& m, const std::vector<glm::vec3>& _points, const std::vector<double>& samples, double velocity);
 	void move(double _size, const std::vector<glm::vec3>& _points, double deltaTime, std::vector<double>& samples);
-	// RAII
 	~Train();
-	// Rule of three
 	Train& operator = (Train& other);
 	Train(const Train& other);
 private:
