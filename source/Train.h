@@ -1,6 +1,5 @@
 #pragma once
 #include <vector>
-#include "TrainItem.h"
 #include "framework/engine.h"
 
 #include "SplineCalculateComponent.h"
