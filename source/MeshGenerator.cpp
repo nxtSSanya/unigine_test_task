@@ -3,7 +3,6 @@
 #include <vector>
 
 const double spacing = 0.5;
-const double sleeper_height = -0.000001;
 const glm::vec3 sleeper_size(0.1, 0.7, 1.2);
 const glm::vec3 sleeper_color = { 0.5, 0.5, 0.5 };
 constexpr double dist_rails = 0.125;
