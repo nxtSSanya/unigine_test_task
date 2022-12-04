@@ -74,8 +74,8 @@ int main()
 		_points.push_back(glm::vec3(path[i], path[i + 1], path[i + 2]));
 	}
 
-	std::vector<Object*> railroad;
-	MeshGenerator::drawSleepers(_points, engine, plane_mesh, railroad);
+	std::vector<Object*> sleepers;
+	MeshGenerator::drawSleepers(_points, engine, plane_mesh, sleepers);
 
 	// Sample for rails
 	Mesh mesh = createCube();
